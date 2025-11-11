@@ -35,8 +35,8 @@ def avgMSE():
 
 def main():
     # Get the average MSE and best random state
-    mse_avg, bestrandomstate = avgMSE()
-    print("Average Mean Squared Error over 500 models: ", mse_avg)
+    mseavg, bestrandomstate = avgMSE()
+    print("Average Mean Squared Error over 500 models: ", mseavg)
     print("Best random state found: ", bestrandomstate)
     print("\nAdd your own variables (Integer inputs only, Attendance and Previous Scores must be between 0 and 100):")
     hours_studied = float(input("Hours Studied: "))
@@ -64,3 +64,4 @@ def main():
 
 
 main()
+
